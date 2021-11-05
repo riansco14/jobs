@@ -10,6 +10,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { Login } from './src/screens/Login';
 import { createStackNavigator } from '@react-navigation/stack';
 import { AuthProvider } from './src/context/AuthContext';
+import { Routes } from './src/routes';
 
 
 const themePaper = {
@@ -27,20 +28,14 @@ const Stack = createStackNavigator();
 function App() {
   return (
 
-    <NavigationContainer>{/* Rest of your app code */}
       <ThemeProvider theme={theme}>
         <PaperProvider theme={themePaper}>
           <StatusBar />
           <AuthProvider>
-            <Stack.Navigator headerMode="none" initialRouteName="Teste">
-              <Stack.Screen name="Login" component={Login} />
-              <Stack.Screen name="Home" component={Home} />
-              <Stack.Screen name="PokemonDetail" component={PokemonDetail} />
-            </Stack.Navigator>
+            <Routes />
           </AuthProvider>
         </PaperProvider>
       </ThemeProvider>
-    </NavigationContainer>
 
   );
 }
