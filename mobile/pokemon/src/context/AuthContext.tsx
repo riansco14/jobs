@@ -56,7 +56,7 @@ function AuthProvider({ children }: AuthProviderProps) {
                 const userLogged = {
                     email: email,
                 } as User;
-
+                setUser(userLogged);
                 await AsyncStorage.setItem('@Pokemon:User', JSON.stringify(userLogged));
             }
 
