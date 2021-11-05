@@ -16,11 +16,6 @@ export function Login() {
     const [hidePass, setHidePass] = useState(true);
 
     const { user, login } = useAuth();
-    useEffect(() => {
-        if (user && Object.keys(user).length > 0) {
-            navigation.navigate('Home');
-        }
-    }, [user]);
 
     return (
         <Container>
