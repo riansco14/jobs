@@ -7,7 +7,7 @@ O desafio tem como objetivo avaliar a pessoa candidata nas experiências:
 * Padrões no uso do React Native
 * Boas práticas de programação e organização de projeto
 
-### Aplicativo Criado
+### Aplicativo Criado ( Imagens do aplicativo em funcionamento )
 
 ![Mobix](./telasApp.png)
 
