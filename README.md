@@ -21,7 +21,7 @@ O desafio tem como objetivo avaliar a pessoa candidata nas experiências:
 
 ### Aplicativo Criado
 
-![Mobix](./app_desafio.png)
+![Mobix](./TelasApp.png)
 
 * A API a ser utilizada se encontra neste link: https://pokeapi.co/docs/v2#pokemon-section
 * Link para o Figma https://www.figma.com/file/943D2Dx1H3uEVBMast3hzt/Teste-Pokemon?node-id=0%3A1
